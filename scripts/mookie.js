@@ -13,7 +13,7 @@ var myButton = document.querySelector('button');
 function Feed(){
     var food = prompt('What are you gonna feed me?!')
     localStorage.setItem('food', food);
-    if (food === ('chicken'|| 'whip cream'|| 'peanut butter'||'steak'))
+    if (food==="chicken"||food==="whip cream"||food==="peanut butter"||food==="steak")
     {
         alert('NOM NOM NOM!');
     } else {
